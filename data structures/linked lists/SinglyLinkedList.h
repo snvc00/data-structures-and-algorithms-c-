@@ -51,8 +51,7 @@ public:
     }
 
     //  Time Complexity - O(1)
-    void addFirst(const T &data)
-    {
+    void addFirst(const T &data) {
         if (size == 0) {
             head = new Node(data);
             tail = head;
@@ -66,8 +65,7 @@ public:
     }
 
     //  Time Complexity - O(1)
-    void addLast(const T &data)
-    {
+    void addLast(const T &data) {
         if (size == 0) {
             head = new Node(data);
             tail = head;
